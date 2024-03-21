@@ -2,9 +2,9 @@
 import typescript from '@rollup/plugin-typescript';
 // import typescript from 'rollup-plugin-typescript2';
 import resolve from '@rollup/plugin-node-resolve';
-import dts from "rollup-plugin-dts";
+// import dts from "rollup-plugin-dts";
 import terser from "@rollup/plugin-terser";
-import generatePackageJson from 'rollup-plugin-generate-package-json';
+// import generatePackageJson from 'rollup-plugin-generate-package-json';
 import path from 'path';
 const packageJson = require("./package.json");
 
